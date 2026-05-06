@@ -10,7 +10,7 @@ spec:
     repoURL: 'https://github.com/fraidy53/awseksinfra.git'
     targetRevision: HEAD
     # 리포지토리 내의 매니페스트 파일 경로 (루트 폴더일 경우 '.')
-    path: 'mainfests/backend'
+    path: 'manifests/backend'
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: default
