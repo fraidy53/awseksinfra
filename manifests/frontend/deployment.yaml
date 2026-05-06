@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: 805400277714.dkr.ecr.ap-northeast-2.amazonaws.com/sample-app-v3/frontend
+          image: 805400277714.dkr.ecr.ap-northeast-2.amazonaws.com/sample-app-v3/frontend:e66343a156fbad0ffcd93c4e36e4664927dd2136
           ports:
             - containerPort: 80
           readinessProbe:
